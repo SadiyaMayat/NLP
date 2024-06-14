@@ -5,14 +5,18 @@ Natural Language Processing (NLP) is a field of Artificial Intelligence (AI) foc
 The IMDB movie review dataset contains 50,000 movie reviews, labeled as positive or negative. It is widely used for binary sentiment classification tasks. This dataset is ideal for demonstrating different NLP techniques for text classification.
 
 Download the IMDB movie reviews dataset from Kaggle using the following links:
+
 https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
 ### Naive Bayes Classifier
 **Data Loading and Preprocessing:**
 * Load the dataset and clean the text by removing HTML tags, punctuation, and stopwords, and by lemmatizing words.
 * Libraries used: **pandas,** **re,** **NLTK.**
-* ![re](https://img.shields.io/badge/-re-1f425f?style=flat-square)
-* ![nltk](https://img.shields.io/badge/-nltk-9cf?style=flat-square&logo=python&logoColor=white)
-
+  
+  [![re](https://img.shields.io/badge/re-1f425f?style=for-the-badge)](https://docs.python.org/3/library/re.html)
+ 
+  [![nltk](https://img.shields.io/badge/nltk-9cf?style=for-the-badge&logo=python&logoColor=white)](https://www.nltk.org/)
+  
 **Text Vectorization:**
 * Convert text data into TF-IDF vectors.
 
